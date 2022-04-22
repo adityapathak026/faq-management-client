@@ -1,0 +1,44 @@
+.registerContainer{
+    background-color: #f8fafb;
+    height: 100vh;
+    user-select: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.registerContainer .needs-validation{
+    height: 65%;
+   width:60% !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: burlywood;
+    border-radius: 2%;
+     -webkit-box-shadow: 1px 1px 5px 1px rgba(0,0,0,0.75);
+-moz-box-shadow: 1px 1px 5px 1px rgba(0,0,0,0.75);
+box-shadow: 1px 1px 5px 1px rgba(0,0,0,0.75);
+}
+
+.needs-validation .col-md-6{
+    padding: 10px;
+    width: 50%;
+}
+
+.needs-validation .col-md-6{
+  position: relative;
+}
+
+.faEye{
+position: absolute;
+top: 52px;
+right: 20px;
+}
+
+.register-links{
+margin-top: 10px;
+}
+
+.register-links span{
+    padding-left: 20px;
+}

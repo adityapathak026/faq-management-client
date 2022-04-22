@@ -1,0 +1,28 @@
+.AddFaqContainer{
+    height: 92vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.faqForm{
+    height: 80%;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.faqForm textarea{
+    margin: 20px 0;
+    height: 120px;
+    width: 67%;
+}
+
+.faqForm select{
+    padding: 10px;
+    width: 67%;
+}
+

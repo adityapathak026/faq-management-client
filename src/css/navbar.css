@@ -1,0 +1,31 @@
+.prj_name{
+    background: #282A35;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.prj_name>h3{
+margin: 10px !important;
+}
+
+.navbar_links{
+    width: 100vw;
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+}
+
+.prj_name a{
+    text-decoration: none;
+     color: white;
+}
+
+.navbar_links a{
+    align-items: center;
+    margin: 10px !important;
+    text-decoration: none;
+   
+}
+

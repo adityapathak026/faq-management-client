@@ -1,0 +1,26 @@
+.otpContainer{
+    width: 100vw;
+    height: 92vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.otpForm{
+    height: 50%;
+    width: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 20px;
+    background: white;
+    border-radius: 15px;
+    background:lightgray;
+}
+
+.otpForm>button{
+    height: 3rem;
+    margin-top: 15px;
+}
